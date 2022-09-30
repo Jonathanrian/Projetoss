@@ -1,0 +1,50 @@
+.formlogin{
+    width: 250px;
+    margin: 50px auto 0;
+}
+
+.formlogin fieldset{
+    background: #ccc;
+}
+
+.formlogin legend{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    display: inline-block;
+    padding: 8px;
+}
+.formlogin label{
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#log, #pass, .bnt{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+    border: 3px;
+}
+
+#log:focus, #pass:focus{
+    background: #ddd ;
+}
+
+#log{
+    margin-top: 5px;
+}
+
+#pass{
+    margin-top: 5px;
+}
+.bnt{
+    margin-top: 15px;
+}
+
+.bnt:hover{
+    background:rgba(148, 152, 207, 0.6)
+}

@@ -1,0 +1,100 @@
+h1{
+    font-size: 16;
+    font-family: sans-serif;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(148deg, rgba(2,0,36,1) 7%, rgba(9,118,121,1) 47%, rgba(0,212,255,1) 100%);
+    width: 1185px;
+    height: 55px;
+    margin-top: 35px;
+    margin-left: 70px;
+    margin-right: 60px;
+    padding-top: 13px;
+    
+    border-radius: 7px;
+
+}
+.linha{
+    border-color: rgb(0, 0, 0);
+    height: 100%;
+    left: 50%;
+    position:-webkit-sticky;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 71px;
+    
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 71px;
+    width: 1185px;
+    height: 40px;
+    background: rgb(48,147,149);
+    background: linear-gradient(117deg, rgba(48,147,149,1) 0%, rgba(14,16,17,1) 100%);
+    padding-top: 15px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-bottom: solid 3px black;
+
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 71px;
+    text-decoration: dotted;
+
+}
+
+h3:link{
+    text-decoration: none;
+    color: brown;
+    
+}
+
+h3:visited{
+    text-decoration: none;
+    color: aqua;
+}
+
+h3:hover{
+    text-decoration: none;
+    color: rgb(34, 21, 212);
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 71px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-position: inside;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
